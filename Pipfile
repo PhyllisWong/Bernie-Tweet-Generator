@@ -7,9 +7,13 @@ name = "What Would Bernie Say"
 
 [packages]
 
+gunicorn = "*"
+
+
 [dev-packages]
 
 
 
 [requires]
+
 python_version = "3.6.4"
