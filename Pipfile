@@ -1,0 +1,15 @@
+[[source]]
+
+url = "https://what-would-bernie-say.herokuapp.com/"
+verify_ssl = true
+name = "What Would Bernie Say"
+
+
+[packages]
+
+[dev-packages]
+
+
+
+[requires]
+python_version = "3.6.4"
