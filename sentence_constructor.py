@@ -123,7 +123,7 @@ def construct_sentence(wrd_num, clean_list):
     dict_w_weights = calculate_probability(dictionary)
     rand_sentence = create_sentence(wrd_num, dict_w_weights, markov_dict)
     tweet = limit_140_chars(rand_sentence)
-    print(tweet)
+    # print(tweet)
     return tweet
 
 
